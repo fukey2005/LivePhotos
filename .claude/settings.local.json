@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "mcp__plugin_claude-mem_mcp-search__search"
+      "mcp__plugin_claude-mem_mcp-search__search",
+      "Bash(xcodebuild -project LivePhotos.xcodeproj -scheme LivePhotos -destination 'generic/platform=iOS' -quiet build)",
+      "Bash(node:*)",
+      "Bash([ ! -f /private/tmp/claude-501/-Users-fukey2005-WorkSpace-Swift-LivePhotos/7414c19e-93cf-438f-b079-fe059ec66506/tasks/bypv0a0yi.done ])",
+      "Bash([ ! -f /private/tmp/claude-501/-Users-fukey2005-WorkSpace-Swift-LivePhotos/7414c19e-93cf-438f-b079-fe059ec66506/tasks/bypv0a0yi.error ])"
     ]
   }
 }
